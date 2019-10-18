@@ -1,5 +1,5 @@
 <?php
-require ('include/header.php');
+require ("include/header.php");
 ?>
 <p>Lorem ipsum</p>
 <?php
