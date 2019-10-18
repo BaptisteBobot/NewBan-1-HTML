@@ -1,6 +1,6 @@
 <?php
 require ('include/header.php');
 ?>
-<p>Lorem ipsum</p>
+    <p>Accueil</p>
 <?php
 require ('include/footer.php');
