@@ -1,3 +1,4 @@
+
 .navbar{
     background-color: #33B5E5;
 }
@@ -18,3 +19,13 @@
         width: 50%;
     }
 }
+
+.my-custom-scrollbar {
+    position: relative;
+    height: 50px;
+    overflow: auto;
+}
+.table-wrapper-scroll-y {
+    display: block;
+}
+
