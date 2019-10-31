@@ -15,6 +15,7 @@
 <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.10/css/mdb.min.css" rel="stylesheet">
 
 <link href="../assets/css/dark-mode.css" rel="stylesheet">
+<link href="../assets/css/style.css" rel="stylesheet">
 <header>
     <!--Navbar -->
     <nav class="mb-1 navbar navbar-expand-lg navbar-dark secondary-color lighten-1">
