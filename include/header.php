@@ -17,6 +17,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+
     <!--Navbar -->
     <nav class="mb-1 navbar navbar-expand-lg navbar-dark lighten-1">
         <a class="navbar-brand" href="index.php">NewBan</a>
@@ -53,10 +54,18 @@
                         <i class="fas fa-envelope"></i>
                     </a>
                 </li>
+                <li class="nav-item">
+                    <div class="custom-control custom-switch">
+                        <input type="checkbox" class="custom-control-input" id="darkSwitch" />
+                        <label class="custom-control-label" for="darkSwitch">Dark Mode</label>
+                    </div>
+                </li>
+
                 <li class="nav-item avatar dropdown">
                     <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-55" data-toggle="dropdown"
                        aria-haspopup="true" aria-expanded="false">
                         <img src="https://mdbootstrap.com/img/Photos/Avatars/avatar-2.jpg" class="rounded-circle z-depth-0"
+
                              alt="avatar image" style="height: 30px; width: 30px;">
                     </a>
                     <div class="dropdown-menu dropdown-menu-lg-right dropdown-secondary"
@@ -71,4 +80,4 @@
     </nav>
     <!--/.Navbar -->
 </header>
-
+<body>
