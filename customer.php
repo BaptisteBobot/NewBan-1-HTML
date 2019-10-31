@@ -13,25 +13,23 @@ require ("include/header.php");
                 <!-- Material unchecked -->
                 <div class="form-check">
                     <input type="checkbox" class="form-check-input" id="materialUnchecked">
-                    <label class="form-check-label" for="materialUnchecked">Material unchecked</label>
+                    <label class="form-check-label" for="materialUnchecked">Mail envoyé</label>
                 </div>
-                <p>Mail envoyé</p>
             </div>
             <div class="row">
                 <!-- Material unchecked -->
                 <div class="form-check">
                     <input type="checkbox" class="form-check-input" id="materialUnchecked">
-                    <label class="form-check-label" for="materialUnchecked">Material unchecked</label>
+                    <label class="form-check-label" for="materialUnchecked">SMS envoyé</label>
                 </div>
-                <p>SMS envoyé</p>
+
             </div>
             <div class="row">
                 <!-- Material unchecked -->
                 <div class="form-check">
                     <input type="checkbox" class="form-check-input" id="materialUnchecked">
-                    <label class="form-check-label" for="materialUnchecked">Material unchecked</label>
+                    <label class="form-check-label" for="materialUnchecked">Contacté via téléphone</label>
                 </div>
-                <p>Contacté via téléphone</p>
             </div>
 
         </div>
