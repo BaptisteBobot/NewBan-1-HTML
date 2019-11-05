@@ -45,7 +45,7 @@
                     <a class="nav-link" href="stats.php">Statistiques</a>
                 </li>
                 <li class="nav-item">
-                     <a class="nav-link" href="stats.php">Historique</a>
+                     <a class="nav-link" href="logs.php">Historique</a>
                 </li>
             </ul>
             <ul class="navbar-nav ml-auto nav-flex-icons">
