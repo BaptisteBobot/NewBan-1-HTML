@@ -13,48 +13,51 @@ require ("include/header.php");
                     <table class="table table-bordered table-striped mb-0">
                         <thead>
                         <tr>
-                            <th scope="col">#</th>
-                            <th scope="col">First</th>
-                            <th scope="col">Last</th>
-                            <th scope="col">Handle</th>
+                            <th scope="col">Prénom</th>
+                            <th scope="col">Nom</th>
+                            <th scope="col">Produit recommandé</th>
                         </tr>
                         </thead>
                         <tbody>
                         <tr>
-                            <th scope="row">1</th>
                             <td>Mark</td>
                             <td>Otto</td>
-                            <td>@mdo</td>
+                            <td>Compte courant</td>
                         </tr>
                         <tr>
-                            <th scope="row">2</th>
                             <td>Jacob</td>
                             <td>Thornton</td>
-                            <td>@fat</td>
+                            <td>Livret jeune</td>
                         </tr>
                         <tr>
-                            <th scope="row">3</th>
                             <td>Larry</td>
                             <td>the Bird</td>
-                            <td>@twitter</td>
+                            <td>Assurance vie</td>
                         </tr>
                         <tr>
-                            <th scope="row">4</th>
                             <td>Mark</td>
                             <td>Otto</td>
-                            <td>@mdo</td>
+                            <td>Compte courant</td>
                         </tr>
                         <tr>
-                            <th scope="row">5</th>
                             <td>Jacob</td>
                             <td>Thornton</td>
-                            <td>@fat</td>
+                            <td>Crédit</td>
                         </tr>
                         <tr>
-                            <th scope="row">6</th>
                             <td>Larry</td>
                             <td>the Bird</td>
-                            <td>@twitter</td>
+                            <td>Conpte courantr</td>
+                        </tr>
+                        <tr>
+                            <td>Larry</td>
+                            <td>the Bird</td>
+                            <td>Livret A</td>
+                        </tr>
+                        <tr>
+                            <td>Larry</td>
+                            <td>the Bird</td>
+                            <td>Assurance vie</td>
                         </tr>
                         </tbody>
                     </table>
@@ -82,8 +85,65 @@ require ("include/header.php");
         <!-- Grid column -->
 <!--        <div class="float-left">-->
             <div class="col-lg-6">
-                <div class="card">
-                    <p>historique</p>
+                <div class="float">
+                    <div class="card">
+                        <div class="table-wrapper-scroll-y my-custom-scrollbar-history">
+                            <table id="table" class="table table-hover table-mc-light-blue">
+                                <thead>
+                                <tr>
+                                    <th>ID</th>
+                                    <th>Nom</th>
+                                    <th>Contrats proposés</th>
+                                    <th>Souscrit ou non</th>
+                                    <th>Mail</th>
+                                    <th>Téléphone</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td data-title="ID">1</td>
+                                    <td data-title="Name">Client</td>
+                                    <td data-title="Link">
+                                        <a href="https://github.com/zavoloklom/material-design-color-palette" target="_blank">Livret A</a>
+                                    </td>
+                                    <td data-title="Status">Oui</td>
+                                    <td data-title="mail">bonjour@gmail.com</td>
+                                    <td data-title="Name">0606060606</td>
+                                </tr>
+                                <tr>
+                                    <td data-title="ID">2</td>
+                                    <td data-title="Name">Client</td>
+                                    <td data-title="Link">
+                                        <a href="https://codepen.io/zavoloklom/pen/uqCsB" target="_blank">Livret A</a>
+                                    </td>
+                                    <td data-title="Status">Oui</td>
+                                    <td data-title="mail">bonjour@gmail.com</td>
+                                    <td data-title="Name">0606060606</td>
+                                </tr>
+                                <tr>
+                                    <td data-title="ID">3</td>
+                                    <td data-title="Name">Client</td>
+                                    <td data-title="Link">
+                                        <a href="https://codepen.io/zavoloklom/pen/eNaEBM" target="_blank">Livret A</a>
+                                        <a href="https://github.com/zavoloklom/material-design-hierarchical-display" target="_blank">GitHub</a>
+                                    </td>
+                                    <td data-title="Status">Oui</td>
+                                    <td data-title="mail">bonjour@gmail.com</td>
+                                    <td data-title="Name">0606060606</td>
+                                </tr>
+                                <tr>
+                                    <td data-title="ID">4</td>
+                                    <td data-title="Name">Client</td>
+                                    <td data-title="Link"><a href="https://codepen.io/zavoloklom/pen/dIgco" target="_blank">Livret A</a></td>
+                                    <td data-title="Status">Oui</td>
+                                    <td data-title="mail">bonjour@gmail.com</td>
+                                    <td data-title="Name">0606060606</td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                    </div>
                 </div>
             </div>
 <!--        </div>-->

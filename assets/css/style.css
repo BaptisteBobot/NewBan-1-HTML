@@ -24,6 +24,12 @@
     height: 25em;
     overflow: auto;
 }
+
+.my-custom-scrollbar-history {
+    position: relative;
+    height: 15em;
+    overflow: auto;
+}
 .table-wrapper-scroll-y {
     display: block;
 }
