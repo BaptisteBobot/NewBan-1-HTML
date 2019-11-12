@@ -71,7 +71,7 @@
                     <div class="dropdown-menu dropdown-menu-lg-right dropdown-secondary"
                          aria-labelledby="navbarDropdownMenuLink-55">
                         <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Profil</a>
+                        <a class="dropdown-item" href="profil.php">Profil</a>
                         <a class="dropdown-item" href="#">Deconnexion</a>
                     </div>
                 </li>

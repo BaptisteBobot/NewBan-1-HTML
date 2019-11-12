@@ -23,7 +23,7 @@ require ('include/header.php');
             </div>
             <div>
                 <!-- Forgot password -->
-                <a href="">Mot de passe oublié ?</a>
+                <a href="forgotPwd.php">Mot de passe oublié ?</a>
             </div>
         </div>
 
